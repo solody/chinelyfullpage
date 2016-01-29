@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { margin:0px; }
+tbody { border:0px; }
+.C_page { font-family:"微软雅黑";}
+
+.C_head { border-bottom:5px #222222 solid; background-color:#FFFFFF; font-size:1em;}
+.C_head table { width:960px; margin:20px auto 10px auto; }
+.C_head a { text-decoration:none; color:#2A2A2A; font-weight:bold;}
+.C_head .C_head_td_logo { text-align:center;}
+.C_head .C_head_td_secondary_menu { text-align:right;}
+
+div#footer div.section, div.C_incinfo, div.C_product { width:960px; margin:0px auto; overflow:hidden;}
+div#footer { line-height:50px; margin-top:50px; background-color:#000000; color:#F4F4F4;}
+
+div.C_incinfo { margin-top:10px;}
+div.C_incinfo_text, div.C_incinfo_qna, div.C_incinfo_video, div.C_product { background-color:#F5F5F5; text-align:center; color:#414141;}
+div.C_incinfo_qna {background-color:#FFF;}
+div.C_incinfo_text { width:470px; float:left; }
+div.C_incinfo_qna { width:480px;height:250px; float:right; color:#533f34; }
+div.C_incinfo_video { width:480px; float:right; margin-top:10px; }
+div.C_incinfo_text div.section { width:100%; }
+div.C_incinfo_qna div.section { width:auto; height:218px; padding-top:30px; border:1px solid #ECECEC;}
+div.C_incinfo_video div.section {  width:100%;}
+
+div.C_incinfo_qna a { display:inline-block; background-color:#533f34; color:#FFFFFF; padding:5px 20px; margin-top:15px; font-weight:bold; text-decoration:none;}
+div.C_incinfo h3 { margin:10px 0px; font-weight:normal; font-size:1.2em;}
+div.C_incinfo p { margin:10px 0px;}
+div.C_incinfo_qna h3 {font-size:1.5em;}
+
+div.C_product { margin-top:15px;background-color:transparent;}
+div.C_product div.C_product_box { width:314px; margin-left:9px; float:left; background-color:#F5F5F5;}
+div.C_product div.C_product_box img { display:block; width:314px;}
+div.C_product h3 { margin:10px 0px; font-weight:normal; font-size:1em;}
+div.C_product p { margin:10px 0px;font-size:0.8em;}
+
+div.C_main_container { width:960px; background-color:#F5F5F5; margin:30px auto 0px auto; box-shadow:0px 0px 8px 1px #373737;}
+div.C_main_container_poster { width:100%; height:250px; background-color:#3B3B3B;}
+div.C_main_container_content { padding:20px 50px;}

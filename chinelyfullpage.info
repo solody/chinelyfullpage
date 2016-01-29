@@ -1,0 +1,14 @@
+name = Chinelyfullpage
+description = chinely.com fullpage
+package = Chinely
+version = VERSION
+core = 7.x
+
+
+stylesheets[all][] = style.css
+stylesheets[all][] = flexslider/flexslider.css
+scripts[] = flexslider/jquery.flexslider-min.js
+scripts[] = flowplayer/flowplayer-3.2.6.min.js
+
+
+regions[content] = Main Content
