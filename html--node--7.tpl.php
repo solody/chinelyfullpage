@@ -132,7 +132,7 @@ $theme_path = '/sites/all/themes/chinelyfullpage/';
 
 
         /* Section 02 ======================================= */
-        div.ele_02_text { width: 60%; margin: 5% auto 0 14%; font-size: 11pt; line-height: 30pt; padding: 3%; background-color: RGBA(255,255,255,0.5);  text-indent:2em; color: #002638; font-family: "黑体"; border-radius: 5px; opacity: 0;
+        div.ele_02_text { width: 60%; margin: 5% auto 0 14%; font-size: 16px; line-height: 35pt; padding: 3%; background-color: RGBA(255,255,255,0.3);  text-indent:0em; color: #002638; font-family: "微软雅黑","黑体"; border-radius: 0px; opacity: 0;
             transform: rotate(360deg);
             transition:all 0.5s;transition-delay: 0.3s;}
         .active div.ele_02_title {
@@ -315,7 +315,7 @@ $theme_path = '/sites/all/themes/chinelyfullpage/';
                     <ul>
                         <li><a href="/brand/laifemen">莱菲蔓</a></li>
                         <li><a href="/brand/yilaiya">伊莱娅</a></li>
-                        <li><a href="/">探索更多…</a></li>
+                        <li><a href="/about">关于彩怒莉</a></li>
                     </ul>
                 </td>
                 <td class="C_head_td_logo">
@@ -327,7 +327,6 @@ $theme_path = '/sites/all/themes/chinelyfullpage/';
                     <ul>
                         <li><a href="/news">资讯</a></li>
                         <li><a href="/contact">商务合作</a></li>
-                        <li><a href="/about">关于彩怒莉</a></li>
                         <li><a href="/join">人才招聘</a></li>
                     </ul>
               </td>
@@ -350,7 +349,7 @@ $theme_path = '/sites/all/themes/chinelyfullpage/';
     <div class="section">
 
             <div class="ele ele_02_title"><div style="background-image: url(<?=$theme_path?>images/02/title.png); background-size: cover; background-position: center center; padding-bottom:15%;"></div></div>
-            <div class="ele ele_02_text">指甲油从诞生至今已经有两千年的历史，影响了全球一代又一代的爱美女性，经久不衰！指甲的修饰乃是女性美容的重要内容，以显示纤纤玉手的魅力。在欧美日韩，指甲油所赋予的“女性浓度”甚至在口红之上！</div>
+            <div class="ele ele_02_text">指甲油从诞生至今已经有两千年的历史，影响了全球一代又一代的爱美女性，经久不衰！<br>指甲的修饰乃是女性美容的重要内容，以显示纤纤玉手的魅力。<br>在欧美日韩，指甲油所赋予的“女性浓度”甚至在口红之上！</div>
 
     </div>
 

@@ -103,6 +103,9 @@
       hide($content['links']);
       print render($content['field_slider_photo']);
 	  ?>
+	  <script type="text/javascript">
+	  jQuery('div.flexslider ul.slides li:last').css('background-color','#990033');
+	  </script>
         <div class="C_incinfo">
              <div class="C_incinfo_text"><div class="section">
                   <div style="height:530px; overflow:hidden;"><img src="sites/all/themes/chinelyfullpage/image/ad.jpg"></div>
@@ -152,6 +155,9 @@
                        <p>堪称指甲的CC霜，保护、滋润、美化指甲</p>
                    </div>
              </div>
+        </div>
+        <div class="C_product" style="display: none;">
+        <img src="sites/all/themes/chinelyfullpage/image/product_eliya.png"/>
         </div>
 	<?php
 	  print render($content['body']);
