@@ -132,7 +132,7 @@ $theme_path = '/sites/all/themes/chinelyfullpage/';
 
 
         /* Section 02 ======================================= */
-        div.ele_02_text { width: 60%; margin: 5% auto 0 14%; font-size: 16px; line-height: 35pt; padding: 3%; background-color: RGBA(255,255,255,0.3);  text-indent:0em; color: #002638; font-family: "微软雅黑","黑体"; border-radius: 0px; opacity: 0;
+        div.ele_02_text { width: 100%; margin: 5% auto 0 auto; font-size: 16px; line-height: 35pt; padding: 3% 24%; background-color: RGBA(255,255,255,1);  text-indent:0em; color: #000; font-family: "微软雅黑","黑体"; border-radius: 0px; opacity: 0;
             transform: rotate(360deg);
             transition:all 0.5s;transition-delay: 0.3s;}
         .active div.ele_02_title {
@@ -145,7 +145,7 @@ $theme_path = '/sites/all/themes/chinelyfullpage/';
 
         /* Section 03 ======================================= */
         div.ele_03_lineB,div.ele_03_lineR {
-            padding: 15px; color: #FFFFFF; margin: 10px 0; width: 40%;  font-family: "黑体";
+            padding: 15px; color: #FFFFFF; margin: 10px 0; width: 40%;  font-family: "微软雅黑","黑体";
             overflow: hidden; transform: translateY(600%) rotate(-90deg); opacity: 0;
         }
         div.ele_03_lineB { background-color: #00abeb;}
@@ -350,7 +350,9 @@ $theme_path = '/sites/all/themes/chinelyfullpage/';
     <div class="section">
 
             <div class="ele ele_02_title"><div style="background-image: url(<?=$theme_path?>images/02/title.png); background-size: cover; background-position: center center; padding-bottom:15%;"></div></div>
-            <div class="ele ele_02_text">指甲油从诞生至今已经有两千年的历史，影响了全球一代又一代的爱美女性，经久不衰！<br>指甲的修饰乃是女性美容的重要内容，以显示纤纤玉手的魅力。<br>在欧美日韩，指甲油所赋予的“女性浓度”甚至在口红之上！</div>
+            <div class="ele ele_02_text">指甲油从诞生至今已经有两千年的历史，影响了全球一代又一代的爱美女性，经久不衰！
+                                        <br>　　　　<span style="font-size: 120%;">指甲的修饰乃是女性美容的重要内容，以显示纤纤玉手的魅力。</span>
+                                        <br>　　　　　　　　<span style="font-size: 140%;">在欧美日韩，指甲油所赋予的“女性浓度”甚至在口红之上！</span></div>
 
     </div>
 
