@@ -315,7 +315,7 @@ $theme_path = '/sites/all/themes/chinelyfullpage/';
                     <ul>
                         <li><a href="/brand/laifemen">莱菲蔓</a></li>
                         <li><a href="/brand/yilaiya">伊莱娅</a></li>
-                        <li><a href="/about">关于彩怒莉</a></li>
+                        <li><a href="http://www.kaiturui.com">香氛世界</a></li>
                     </ul>
                 </td>
                 <td class="C_head_td_logo">
@@ -327,6 +327,7 @@ $theme_path = '/sites/all/themes/chinelyfullpage/';
                     <ul>
                         <li><a href="/news">资讯</a></li>
                         <li><a href="/contact">商务合作</a></li>
+                        <li><a href="/about">关于彩怒莉</a></li>
                         <li><a href="/join">人才招聘</a></li>
                     </ul>
               </td>
