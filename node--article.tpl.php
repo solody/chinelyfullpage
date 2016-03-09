@@ -80,6 +80,9 @@
  * @ingroup themeable
  */
 ?>
+
+<?php if ($page): ?>
+
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
   <?php print $user_picture; ?>
@@ -91,12 +94,12 @@
   <?php print render($title_suffix); ?>
 
   <?php if ($display_submitted): ?>
-    <div class="submitted">
+    <div class="submitted<?php if ($page) { echo ' C_submitted_box';} ?>">
       <?php print $submitted; ?>
     </div>
   <?php endif; ?>
 
-  <div class="content"<?php print $content_attributes; ?>>
+  <div class="content C_news_content"<?php print $content_attributes; ?>>
     <?php
       // We hide the comments and links now so that we can render them later.
       hide($content['comments']);
@@ -110,3 +113,14 @@
   <?php print render($content['comments']); ?>
 
 </div>
+
+<?php else : ?>
+
+<div class="C_news_list_item">
+    <a href="<?php print $node_url; ?>">
+    <div class="C_news_list_item_title"><?php print $title; ?></div>
+    <div class="C_news_list_item_time"><?php print $submitted; ?></div>
+    </a>
+</div>
+
+<?php endif; ?>
