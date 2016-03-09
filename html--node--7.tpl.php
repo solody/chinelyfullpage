@@ -169,8 +169,8 @@ $theme_path = '/sites/all/themes/chinelyfullpage/';
         div.ele_04_left {width: 0%; height: 100%; float: left; background-color: #7dcdf4;}
         div.ele_04_right {width: 100%; height: 100%; float: left; background-color: #ffffff;}
         div.ele_04_house { position: relative;  top: 50%; transform:translateX(200%) translateY(-50%) rotate(180deg);opacity: 0; }
-        div.ele_04_text { width: 60%; height: 40%; position: relative;  top: 50%; transform:translateX(0%) translateY(-50%) rotate(0deg);opacity: 0; font-family: "黑体"; font-size: 11pt;   }
-        div.ele_04_text span { font-size: 15pt; color: #002638; display: block; padding-bottom: 5pt; }
+        div.ele_04_text { width: 60%; height: 40%; position: relative;  top: 50%; transform:translateX(0%) translateY(-50%) rotate(0deg);opacity: 0; font-family: "微软雅黑","黑体"; font-size: 14px; color:#666;  font-style: italic; line-height: 20pt; padding-bottom: 60pt;   }
+        div.ele_04_text span { font-size: 18px; color: #000;  font-style:normal; display: block; padding-bottom: 5pt; }
         .active div.ele_04_house { transform:translateX(30%) translateY(-50%) rotate(0deg); box-shadow: 0 0 5px 2px #999;opacity: 1;}
         .active div.ele_04_text { transform:translateX(40%) translateY(-50%)  rotate(360deg);opacity: 1;  }
         .active div.ele_04_left {width: 30%;}
@@ -183,8 +183,8 @@ $theme_path = '/sites/all/themes/chinelyfullpage/';
         div.ele_05_right {width: 70%; height: 100%; float: left; background-color: #ea639f; opacity: 0;}
         div.ele_05_girl1 {  transform:translateX(200%) translateY(30%) rotate(-250deg);opacity: 0; }
         div.ele_05_girl2 {  transform:translateX(200%) translateY(0%) rotate(-150deg);opacity: 0; }
-        div.ele_05_text { width: 60%; height: 40%; position: relative;  top: 50%; transform:translateX(0%) translateY(-50%) rotate(0deg);opacity: 0; font-family: "黑体"; font-size: 11pt; color: #FFFFFF;   }
-        div.ele_05_text span { font-size: 15pt; display: block; padding-bottom: 5pt; }
+        div.ele_05_text { width: 60%; height: 40%; position: relative;  top: 50%; transform:translateX(0%) translateY(-50%) rotate(0deg);opacity: 0; font-family: "微软雅黑","黑体"; font-size: 14px; color:#F6E1EE;  font-style: italic; line-height: 20pt; padding-bottom: 60pt;   }
+        div.ele_05_text span { font-size: 18px; color:#FFF;  font-style:normal; display: block; padding-bottom: 5pt; }
         .active div.ele_05_text { transform:translateX(40%) translateY(-50%)  rotate(360deg);opacity: 1;  }
         .active div.ele_05_girl1 { transform:translateX(90%) translateY(30%) rotate(25deg); box-shadow: 0 0 5px 2px #999;opacity: 1;}
         .active div.ele_05_girl2 {transform:translateX(50%) translateY(0%) rotate(-15deg); box-shadow: 0 0 5px 2px #999;opacity: 1;}
@@ -352,7 +352,7 @@ $theme_path = '/sites/all/themes/chinelyfullpage/';
             <div class="ele ele_02_title"><div style="background-image: url(<?=$theme_path?>images/02/title.png); background-size: cover; background-position: center center; padding-bottom:15%;"></div></div>
             <div class="ele ele_02_text">指甲油从诞生至今已经有两千年的历史，影响了全球一代又一代的爱美女性，经久不衰！
                                         <br>　　　　<span style="font-size: 120%;">指甲的修饰乃是女性美容的重要内容，以显示纤纤玉手的魅力。</span>
-                                        <br>　　　　　　　　<span style="font-size: 140%;">在欧美日韩，指甲油所赋予的“女性浓度”甚至在口红之上！</span></div>
+                                        <br>　　　　　　　　<span style="font-size: 130%;">在欧美日韩，指甲油所赋予的“女性浓度”甚至在口红之上！</span></div>
 
     </div>
 
