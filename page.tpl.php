@@ -131,7 +131,7 @@
 
 
 
-    <div id="footer"><div class="section">
+    <div id="footer"<?php if ($node->vid == 6) echo ' style="margin-top:0;"'; ?>><div class="section">
       <div>@COPYRIGHT 2015 广州彩怒莉化妆品有限公司 All Rights Reserved .</div>
       <?php print render($page['footer']); ?>
     </div></div> <!-- /.section, /#footer -->

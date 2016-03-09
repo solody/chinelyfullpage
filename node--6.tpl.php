@@ -170,7 +170,6 @@
      </div>
 </div>
 
-<div style="background-color:#0d2d46; height:60px;"></div>
 
 <div style="background-color:#000; height:600px;">
      <div style="width:960px;height:100%; margin:0px auto; background-image:url(/sites/all/themes/chinelyfullpage/image/brand_page/star_bright_color.png);">
@@ -178,21 +177,12 @@
      </div>
 </div>
 
-<div style="background-color:#0d2d46; height:60px;"></div>
 
 <div style="background-color:#fff000; height:600px;">
      <div style="width:960px;height:100%; margin:0px auto; background-image:url(/sites/all/themes/chinelyfullpage/image/brand_page/6huayuly.png);">
-         <br><br>
      </div>
 </div>
 
-<!--div style="background-color:#0d2d46; height:600px;">
-8缤纷浪漫色
-</div>
-
-<div style=" height:600px;">
-6璀璨星空色
-</div-->
 
 <div style="text-align:center;">
 	<?php
