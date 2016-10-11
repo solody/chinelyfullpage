@@ -315,7 +315,7 @@ $theme_path = '/sites/all/themes/chinelyfullpage/';
                     <ul>
                         <li><a href="/brand/laifemen">莱菲蔓</a></li>
                         <li><a href="/brand/yilaiya">伊莱娅</a></li>
-                        <li><a href="http://www.kaiturui.com">香氛世界</a></li>
+                        <li><a href="http://kaiturui.chinely.com">香氛世界</a></li> 
                     </ul>
                 </td>
                 <td class="C_head_td_logo">
@@ -343,7 +343,7 @@ $theme_path = '/sites/all/themes/chinelyfullpage/';
     <div class="section active">
         <div style="background-image: radial-gradient(#490119 10%, #650022 30%, #990033 60%);overflow: hidden;">
             <div class="ele ele_01_photo"><div style="background-color: #FFFFFF; background-image: url(<?=$theme_path?>images/01/girl.png); background-size: cover; background-position: top center; padding-bottom:60%;"></div></div>
-            <div class="ele ele_01_title"><div style="background-image: url(<?=$theme_path?>images/01/title.png); background-size: cover; background-position: center center; padding-bottom:30%;"></div></div>
+            <div class="ele ele_01_title"><div style="/*background-image: url(<?=$theme_path?>images/01/title.png);*/ background-size: cover; background-position: center center; padding-bottom:30%;"></div></div>
             <div class="ele ele_01_logo"><div style="background-image: url(<?=$theme_path?>images/01/logo.png); background-size: cover; background-position: center center; padding-bottom:40%;"></div></div>
         </div>
     </div>
